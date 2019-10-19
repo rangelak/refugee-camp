@@ -1,0 +1,56 @@
+/* ************  DEFAULT STYLES ************ */
+
+/****************
+  ** FONTS **
+  > Roboto condensed
+  > Montserrat
+  > Lato
+*****************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Condensed|Lato:400,900&display=swap');
+
+/****************/
+/*   STATS      */
+/****************/
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Lato, sans-serif;
+    font-size: 25pt;
+    text-transform: lowercase;
+}
+
+.headline-3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+p.charttext {
+    font-family: Lato, sans-serif;
+}
+
+/* footer at bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin:0;
+}
+
+main{
+  flex: 1;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
+

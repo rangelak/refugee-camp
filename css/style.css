@@ -1,0 +1,21 @@
+.headline-row{
+	background-size: 100% auto;
+	background-image: url('../img/refugee_bw.jpg');
+}
+.headline-row h1{
+	color: white !important;
+	background-color: black;
+}
+.chart-label{
+	font-family: Lato;
+	font-size: 8pt;
+}
+.graph-title{
+	font-family: Montserrat, 700;
+	font-size: 12pt;
+	fill: #8c8c8c;
+}
+.y1{
+	font-size: 10pt;
+	font-family: Lato;
+}
